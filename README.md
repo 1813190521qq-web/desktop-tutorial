@@ -48,6 +48,14 @@ Read docs/quickstart.md for a fuller walkthrough and run examples/basic_flow.py.
 - Tracing exporters and a workflow visualizer
 - A registry for community skills
 
+## Open-source stewardship
+
+The project will use automation to keep its open-source resources useful and current: documentation updates, tests for skills and agent components, runnable developer examples, workflow validation, release preparation, and issue analysis. These maintenance activities are planned to improve developer experience and project reliability; this repository does not claim usage metrics or credits it has not received.
+
+## Security-aware agent development
+
+Agent workflows may combine executable logic, external tools, APIs, and user-provided data. OpenAgentFlow treats safe extension boundaries as a core concern: integrations remain optional, workflows are explicit, and vulnerabilities can be reported through SECURITY.md. The project will continue to improve dependency hygiene, code review practices, and guidance for secure agent development.
+
 ## Contributing and security
 
 Read CONTRIBUTING.md for local development and PR expectations. Report vulnerabilities privately using SECURITY.md.
