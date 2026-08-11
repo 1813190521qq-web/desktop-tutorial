@@ -1,0 +1,8 @@
+name: customer-support
+description: A small support workflow with triage and response steps.
+steps:
+  - agent: triage
+    instructions: Classify urgency, product area, and missing information.
+  - agent: responder
+    instructions: Draft a concise, empathetic response and next action.
+
